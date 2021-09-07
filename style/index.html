@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script/jquery.js"></script>
+    <script src="/script/client.js"></script>
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Salary Calculator</title>
+</head>
+<body>
+    <header>
+        <strong> <H1>Salary Calculator</H1></strong>
+     </header>
+   <strong> <h2>Add Employee :</h2></strong>
+   <div  id="inputId">
+       <input type="text" class="empFirstName" placeholder="First Name">
+       <input type="text" class="empLastName" placeholder="Last Name">
+       <input type="number" class="employeeId" placeholder="ID">
+       <input type="text" class="employeeTitle" placeholder="Title">
+       <input type="text" class="empAnnualSalary" placeholder="Annual Salary">
+       <button class="submitBtn">Submit</button>
+ 
+   </div>
+  <h2> Employees:</h2>
+  <table id="employeeTable">
+     <tr>
+       <th>First Name</th>
+       <th>Last Name</th>
+       <th>ID</th>
+       <th>Title</th>
+       <th>Annual Salary</th>
+     <th> <!-- <th>DeleteBtn</th> --></th>
+    
+     </tr>
+   </table>
+   <div id="monthlyCostColor">
+  <strong>Total Monthly Salary: <span id="totalmonthlySalary">0.00</span> </strong>
+   </div>
+
+</body>
+</html>
