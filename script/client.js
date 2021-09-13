@@ -66,6 +66,12 @@ function submitList(){
     let monthlySalary = annualSalary / 12;
     totalMonthlyCosts += monthlySalary;
     $('#totalmonthlySalary').text(totalMonthlyCosts.toFixed(2));
+    // //empty out all the values
+    $('.empFirstName').val('');
+    $('.empLastName').val('');
+    $('.employeeId').val('');
+    $('.employeeTitle').val('');
+    $('.empAnnualSalary').val('');
 
     //if the monthly costs > 20k make a red backround
     
